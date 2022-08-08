@@ -1,0 +1,152 @@
+@media (min-width: 740px) and (max-width: 1023px) {
+    .body .home .avt img {
+        max-width: 250px;
+    }
+    .body .about_me .decord_content #img_gear {
+        max-width: 500px;
+    }
+    .body .about_me .content p {
+        text-align: justify;
+    }
+    .body .knowledge .cover_content_know {
+        width: 100%;
+    }
+    .body .exp .cover_content_exp {
+        width: 100%;
+    }
+    .body .exp .cover_content_exp .content_exp div {
+        width: 80%;
+    }
+    .body .activity .cover_act {
+        height: 300px;
+    }
+    .body .contact .talk_cover{
+        position: relative;
+        height: 100%;
+        width: 60%;
+        
+        margin: 50px auto 0 auto;  
+    }
+    .body .contact .social_network{
+        width: 100%;
+        position: relative;
+    }
+    .body .contact .talk_title {
+        padding-top: 10px;
+    }
+    .body .contact {
+        height: auto;
+    }
+    .body .contact .talk {
+        margin: 50px auto 0px auto;
+    }
+    .body .talk_cover {
+        padding-bottom: 50px;
+    }
+    .body .cover_talk {
+        min-height: 400px;
+    }
+    .nav {
+        display: flex;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 740px) {
+    .body .home .avt {
+        width: 100%;
+    }
+    .body .home .avt img {
+        max-width: 180px;
+    }
+    .body .about_me .decord_content #img_gear {
+        max-width: 300px;
+    }
+    .body .about_me .content p {
+        text-align: justify;
+    }
+    .body .about_me .content{
+        width: 100%;
+    }
+    .body .knowledge .cover_content_know {
+        width: 100%;
+    }
+    .body .knowledge .cover_content_know .content_know .knows div {
+        font-size: 15px;
+        height: 120px;
+    }
+    .body .exp .cover_content_exp {
+        width: 100%;
+    }
+    .body .exp .cover_content_exp .content_exp div {
+        width: 80%;
+    }
+    .body .activity .cover_act {
+        height: 300px;
+    }
+    .body .home .image_it_man {
+       display: none;
+        
+    }
+    .body .home .text {
+        width: 100%;
+        font-size: 40px;
+        transform: translateY(70px);
+        align-items: flex-start;
+        line-height: 20px;
+    }
+    .body .exp .cover_content_exp .content_exp .high_school .content_high_school {
+        width: fit-content;
+    }
+    .body .exp {
+        height: 1100px;
+    }
+    .body .act {
+        width: 100%;
+    }
+    .body .act .cover_act {
+        height: 400px;
+    }
+    .body .contact .talk_cover{
+        position: relative;
+        height: 100%;
+        width: 80%;
+        
+        margin: 50px auto 0 auto;  
+    }
+    .body .contact .social_network{
+        width: 100%;
+        position: relative;
+    }
+    .body .contact .talk_title {
+        padding-top: 10px;
+    }
+    .body .contact {
+        height: auto;
+    }
+    .body .contact .talk {
+        margin: 50px auto 0px auto;
+    }
+    .body .talk_cover {
+        padding-bottom: 50px;
+    }
+    .body .cover_talk {
+        min-height: 400px;
+    }
+    .nav {
+        display: flex;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 5px;
+        bottom: 0;
+    }
+    .nav .ti {
+        font-size: 20px;
+    }
+}
